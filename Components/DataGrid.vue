@@ -69,7 +69,7 @@
 <script setup>
 import { ref, watch,useSlots } from "vue";
 import { Link } from "@inertiajs/inertia-vue3";
-import Pagination from "@/Components/Pagination.vue";
+import Pagination from "./Pagination.vue";
 
 const props = defineProps({
   columns: Array,

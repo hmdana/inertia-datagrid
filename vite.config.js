@@ -7,7 +7,7 @@ export default defineConfig({
     plugins: [vue()],
     build: {
         lib: {
-            entry: path.resolve(__dirname, "main.js"),
+            entry: path.resolve(__dirname, "/main.js"),
             name: "Inertia.js DataGrid",
             fileName: (format) => `inertia-datagrid.${format}.js`
         },

@@ -1,4 +1,4 @@
-import DataGrid from "./Components/DataGrid.vue";
+import DataGrid from "./Components/Datagrid.vue";
 export {
     DataGrid
 }
