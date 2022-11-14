@@ -2,11 +2,23 @@
   "name": "inertia-datagrid",
   "version": "1.0.0",
   "description": "",
+  "private": false,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "peerDependencies": {
+    "@inertiajs/inertia-vue3": "^0.6",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0",
+    "eslint": "^8.18.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "vite": "^3.0"
+  },
+  "license": "MIT",
+  "type": "module",
   "keywords": ["inertia","datagrid","datatable","vue"],
-  "author": "",
-  "license": "ISC"
+  "author": "Hussain Mousavi <shm379@gmail.com>"
 }
