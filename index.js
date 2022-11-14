@@ -1,1 +1,4 @@
-console.log('Hello This is my first package');
+import DataGrid from "./Components/DataGrid.vue";
+export {
+    DataGrid
+}
