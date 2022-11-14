@@ -1,6 +1,6 @@
 {
   "name": "inertia-datagrid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "private": false,
   "main": "index.js",
@@ -19,6 +19,11 @@
   },
   "license": "MIT",
   "type": "module",
-  "keywords": ["inertia","datagrid","datatable","vue"],
+  "keywords": [
+    "inertia",
+    "datagrid",
+    "datatable",
+    "vue"
+  ],
   "author": "Hussain Mousavi <shm379@gmail.com>"
 }
