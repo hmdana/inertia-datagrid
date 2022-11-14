@@ -3,9 +3,20 @@
   "version": "1.0.2",
   "description": "",
   "private": false,
-  "main": "index.js",
+  "main": "./dist/inertia-datagrid.umd.js",
+  "module": "./dist/inertia-datagrid.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/inertia-datagrid.es.js",
+      "require": "./dist/inertia-datagrid.umd.js"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run --environment jsdom",
+    "test-dev": "vitest --environment jsdom",
+    "eslint": "eslint js/ --ext .js,.vue --fix"
   },
   "peerDependencies": {
     "@inertiajs/inertia-vue3": "^0.6",
